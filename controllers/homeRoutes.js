@@ -6,12 +6,12 @@ const withAuth = require("../utils/auth");
 router.get("/", withAuth, async (req, res) => {
   try {
     const response = await fetch(
-      "https://food-recipes-with-images.p.rapidapi.com/?q=chicken%20soup",
+      "https://api.spoonacular.com/recipes/complexSearch?query=pasta&maxFat=25&number=8",
       {
         headers: {
-          "X-RapidAPI-Key":
-            "f0d85bf896msh212d57dec87319cp1a2f4ajsn9e52e939e8ca",
-          "X-RapidAPI-Host": "food-recipes-with-images.p.rapidapi.com",
+          "X-API-Key":
+            "0cf6a822c1d2495fbe02acd91f694968"
+          
         },
       }
     );
@@ -21,7 +21,7 @@ router.get("/", withAuth, async (req, res) => {
     }
     const data = await response.json();
     console.log(data);
-    console.log("Recipe:", data.d[0].Title);
+    console.log("Recipe:", data.results[0].title);
     //const users = userData.map((project) => project.get({ plain: true }));
 
     res.render("homepage", {
