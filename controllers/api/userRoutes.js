@@ -9,15 +9,16 @@ router.post('/signup', async (req, res) => {
     // Find the user who matches the posted e-mail address
     const newUser = await User.create(req.body);
 
-    res.json(newUser);
+    // res.json(newUser);
 
   
     // Create session variables based on the logged in user
     req.session.save(() => {
-      req.session.user_id = signupData.id;
+      req.session.user_id = newUser.id;
       req.session.logged_in = true;
       
       res.json(newUser);
+      console.log("Your are signed in");
     });
 
   } catch (err) {
