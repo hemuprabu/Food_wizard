@@ -7,11 +7,8 @@ router.get("/", withAuth, async (req, res) => {
   try {
     const recipeData = await Recipes.findAll();
 
-    console.log(recipeData);
-
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
 
-    console.log(recipes);
     // const response = await fetch(
     //   "https://api.spoonacular.com/recipes/complexSearch?query=pasta&maxFat=25&number=8",
     //   {
@@ -52,6 +49,34 @@ router.get('/recipe/:id', async (req, res) => {
   console.log(recipe);
 
   res.render('recipe', { recipe });
+});
+
+router.post("/", async (req, res) => {
+  console.log("searchBtn");
+  console.log(req.body);
+  try {
+    const {Op} = require('sequelize');
+    const { searchQuery } = req.body;
+    const searchResults = await Recipes.findAll({
+      where: {
+        title: {
+          [Op.iLike]: `%${searchQuery}%`
+        }
+      }
+    });
+
+    const recipes = searchResults.map((recipe) => recipe.get({ plain: true }));
+
+    console.log(recipes);
+
+    res.render("homepage", {
+      recipes,
+      logged_in: req.session.logged_in,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("An error occurred while fetching data.");
+  }
 });
 
 router.get("/login", (req, res) => {
