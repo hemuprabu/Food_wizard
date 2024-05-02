@@ -30,84 +30,33 @@
   <div class="col-md-5 mx-auto">
 
     <form id="search">
-            <div class="input-group input-group-lg">
-                <input type="text" id="search-input" class="form-control" aria-label="Large"
-                    aria-describedby="inputGroup-sizing-sm" placeholder="Enter a Recipe to look">
-                <button type="submit" class="btn btn-secondary btn-lg btn-block">Search for Recipes</button>
-            </div>
-        </form>
+      <div class="input-group input-group-lg">
+        <input type="text" id="search-input" class="form-control" aria-label="Large"
+          aria-describedby="inputGroup-sizing-sm" placeholder="Enter a Recipe to look">
+        <button type="submit" class="btn btn-secondary btn-lg btn-block">Search for Recipes</button>
+      </div>
+    </form>
   </div>
 </div>
 {{!-- <ul>
-    {{#each data}}
-        <li><p>{{this.Title}}</p> </li>
-    {{/each}}
+  {{#each data}}
+  <li>
+    <p>{{this.Title}}</p>
+  </li>
+  {{/each}}
 </ul> --}}
 
 <div class="row row-cols-1 row-cols-md-4 g-4">
-  
+  {{#each recipes as |recipe|}}
   <div class="col">
-    <div class="card">
-      <img src="{{data.results.[0].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[0].title}}</h5>
+    <a href="/recipe/{{recipe.id}}">
+      <div class="card">
+        <img src="{{recipe.image}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{recipe.title}}</h5>
         </div>
-    </div>
+      </div>
+    </a>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[1].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[1].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[2].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[2].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[3].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[3].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[4].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[4].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[5].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[5].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[6].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[6].title}}</h5>
-        </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{data.results.[7].image}}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{data.results.[7].title}}</h5>
-        </div>
-    </div>
-  </div>
+  {{/each}}
 </div>

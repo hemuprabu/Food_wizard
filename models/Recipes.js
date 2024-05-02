@@ -2,7 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Recipes extends Model {
-  
+
 }
 
 Recipes.init(
@@ -18,25 +18,25 @@ Recipes.init(
       allowNull: false,
     },
     ingredients: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
-        allowNull: false,
-      },
-      instructions: {
-        type: DataTypes.STRING,
-        allowNull: false,
+      type: DataTypes.TEXT,
+      allowNull: false,
+    },
+    instructions: {
+      type: DataTypes.TEXT,
+      allowNull: false,
     },
     image: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
   },
-},
-{
-  sequelize,
-timestamps: false,
-freezeTableName: true,
-underscored: true,
-modelName: 'recipes',
-}
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'recipes',
+  }
 );
 
 module.exports = Recipes;
