@@ -43,10 +43,11 @@
 <div class="row mt-5">
   <div class="col-md-5 mx-auto">
 
-    <form id="search">
+    <form id="search" action="/" method="POST">
       <div class="input-group input-group-lg">
         <input
           type="text"
+          name="searchQuery"
           id="search-input"
           class="form-control"
           aria-label="Large"
@@ -59,11 +60,6 @@
     </form>
   </div>
 </div>
-{{!-- <ul>
-    {{#each data}}
-        <li><p>{{this.Title}}</p> </li>
-    {{/each}}
-</ul> --}}
 
 <div class="row row-cols-1 row-cols-md-4 g-4">
   {{#each recipes as |recipe|}}
@@ -79,3 +75,5 @@
     </div>
   {{/each}}
 </div>
+
+<script src="/js/searchRecipe.js"></script>
