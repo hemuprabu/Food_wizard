@@ -68,12 +68,14 @@
 <div class="row row-cols-1 row-cols-md-4 g-4">
   {{#each recipes as |recipe|}}
     <div class="col">
+      <a href="/recipe/{{recipe.id}}">
       <div class="card">
         <img src="{{recipe.image}}" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{{recipe.title}}</h5>
         </div>
       </div>
+      </a>
     </div>
   {{/each}}
 </div>
