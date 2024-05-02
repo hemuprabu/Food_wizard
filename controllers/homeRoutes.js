@@ -42,6 +42,18 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
+router.get('/recipe/:id', async (req, res) => {
+  console.log(req.params.id);
+
+  const recipeData = await Recipes.findByPk(req.params.id);
+
+  const recipe = recipeData.get({plain: true});
+
+  console.log(recipe);
+
+  res.render('recipe', { recipe });
+});
+
 router.get("/login", (req, res) => {
   // If a session exists, redirect the request to the homepage
   if (req.session.logged_in) {
@@ -61,5 +73,6 @@ router.get("/signup", (req, res) => {
 
   res.render("signup");
 });
+
 
 module.exports = router;
