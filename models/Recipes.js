@@ -18,11 +18,11 @@ Recipes.init(
       allowNull: false,
     },
     ingredients: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.STRING(1000),
         allowNull: false,
       },
       instructions: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(1000),
         allowNull: false,
     },
     image: {

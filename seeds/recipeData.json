@@ -1,56 +1,51 @@
 [
-  {
-      "title": "Spaghetti Carbonara",
-      "ingredients": "spaghetti, eggs, bacon, Parmesan cheese, black pepper",
-      "instructions": "Cook spaghetti according to package instructions until al dente. Drain, reserving 1/2 cup of pasta water, and set aside./n  In a bowl, whisk together eggs, grated Parmesan cheese, and freshly ground black pepper./n  In a skillet, cook bacon until crisp. Remove from the skillet and chop into small pieces./n  In the same skillet with the bacon fat, add the cooked spaghetti and toss to coat./n  Remove the skillet from heat and quickly pour in the egg mixture, stirring vigorously to coat the spaghetti. The heat from the pasta will cook the eggs, creating a creamy sauce./n  If the sauce is too thick, gradually add the reserved pasta water until desired consistency is reached./n  Stir in the chopped bacon./n  Serve immediately, garnished with additional grated Parmesan cheese and black pepper if desired./n  Enjoy your classic Spaghetti Carbonara!",
-      "image": " https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2622edit.jpg"
-  },
-  {
-      "title": "Chicken Tikka Masala",
-      "ingredients": "chicken breasts, yogurt, tomato sauce, garlic, ginger, garam masala, cumin, coriander, turmeric, cream",
-      "instructions": "In a bowl, mix yogurt, minced garlic, grated ginger, garam masala, cumin, coriander, and turmeric./n  Cut chicken breasts into bite-sized pieces and add them to the marinade. Coat the chicken pieces well, then cover and refrigerate for at least 1 hour./n  Heat a large skillet over medium-high heat. Add a little oil and cook the marinated chicken pieces until they are browned and cooked through./n  In the same skillet, add tomato sauce and a splash of cream. Stir well to combine./n  Reduce the heat to low and simmer the sauce for about 10 minutes, allowing the flavors to meld together./n  Serve the chicken tikka masala over cooked rice or with naan bread./n  Garnish with chopped cilantro if desired./n  Enjoy your flavorful chicken tikka masala!",
-      "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg"
-  },
-  {
-      "title": "Margherita Pizza",
-      "ingredients": "pizza dough, tomato sauce, fresh mozzarella cheese, basil leaves, olive oil, salt",
-      "instructions": "Preheat your oven to 475°F (245°C) and place a pizza stone or an upside-down baking sheet inside to heat up./n  Roll out the pizza dough on a floured surface into a circle about 12 inches in diameter./n  Transfer the rolled-out dough to a piece of parchment paper./n  Spread tomato sauce evenly over the dough, leaving a small border around the edges./n  Tear the fresh mozzarella cheese into small pieces and distribute them evenly over the sauce./n  Arrange basil leaves on top of the cheese./n  Drizzle olive oil over the pizza and sprinkle with a pinch of salt./n  Carefully transfer the pizza on the parchment paper onto the preheated pizza stone or baking sheet in the oven./n  Bake for about 10-12 minutes, or until the crust is golden brown and the cheese is bubbly and melted./n  Remove the pizza from the oven and let it cool for a few minutes before slicing./n  Serve hot and enjoy your homemade Margherita pizza!",
-      "image": "https://www.abeautifulplate.com/wp-content/uploads/2015/08/the-best-homemade-margherita-pizza-1-4.jpg"
-  },
-  {
-      "title": "Beef Tacos",
-      "ingredients": "ground beef, taco seasoning, tortillas, lettuce, tomato, cheese, salsa",
-      "instructions": "Heat a skillet over medium-high heat and add the ground beef. Cook, breaking it up with a spoon, until browned and cooked through./n  Drain excess fat from the skillet, then add taco seasoning and water according to the package instructions. Stir well to combine and simmer for a few minutes until the mixture thickens./n  Warm the tortillas in a separate skillet or in the microwave./n  Assemble the tacos by spooning the beef mixture onto each tortilla./n  Top with shredded lettuce, diced tomatoes, shredded cheese, and salsa./n  Serve immediately, garnished with additional toppings like sour cream, guacamole, or chopped cilantro if desired./n  Enjoy your delicious beef tacos!",
-      "image": "https://img.spoonacular.com/recipes/1505411-556x370.jpg"
-  },
-  {
-      "title": "Caesar Salad",
-      "ingredients": "romaine lettuce, Caesar dressing, croutons, Parmesan cheese",
-      "instructions": "Wash and dry the romaine lettuce, then tear into bite-sized pieces and place in a large salad bowl./n  Add Caesar dressing to the lettuce and toss until well coated./n  Sprinkle croutons over the salad./n  Using a vegetable peeler, shave Parmesan cheese over the top of the salad./n  Toss the salad gently to combine all ingredients./n  Serve immediately as a side dish or as a main course with grilled chicken or shrimp./n  Enjoy your delicious Caesar Salad!",
-      "image": "https://img.spoonacular.com/recipes/631890-556x370.jpg"
-  },
-  {
-      "title": "Vegetable Stir Fry",
-      "ingredients": "mixed vegetables (bell peppers, broccoli, carrots, etc.), soy sauce, garlic, ginger, sesame oil, rice",
-      "instructions": "Cook rice according to package instructions and set aside./n  Heat sesame oil in a large skillet or wok over medium-high heat./n  Add minced garlic and grated ginger to the skillet and cook for about 1 minute until fragrant./n  Add sliced mixed vegetables to the skillet and stir-fry for 5-7 minutes until they are tender-crisp./n  Pour soy sauce over the vegetables and continue to stir-fry for another 1-2 minutes./n  Serve the stir-fried vegetables over cooked rice./n  Garnish with sliced green onions or sesame seeds if desired./n  Enjoy your delicious vegetable stir fry!",
-      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=1200&q=82&auto=format&fit=crop&dm=1703377301&s=27a8577bc7f666190301a03fdf06584c"
-  },
-  {
-      "title": "Chocolate Chip Cookies",
-      "ingredients": "flour, butter, sugar, brown sugar, eggs, vanilla extract, chocolate chips",
-      "instructions": "Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper./n  In a large mixing bowl, cream together softened butter, granulated sugar, and brown sugar until smooth and creamy./n  Beat in eggs, one at a time, then stir in vanilla extract./n  In a separate bowl, combine flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients until well combined./n  Stir in chocolate chips until evenly distributed throughout the dough./n  Drop rounded tablespoons of dough onto the prepared baking sheet, leaving some space between each cookie./n  Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown./n  Allow the cookies to cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely./n  Enjoy your homemade chocolate chip cookies with a glass of milk!",
-      "image": "https://img.spoonacular.com/recipes/648319-556x370.jpg"
-  },
-  {
-      "title": "Pizza bites with pumpkin",
-      "ingredients": "pizza dough, pumpkin puree, mozzarella cheese, Parmesan cheese, garlic powder, dried oregano, salt, pepper",
-      "instructions": "Preheat your oven to 425°F (220°C). Line a baking sheet with parchment paper./n  Roll out the pizza dough on a floured surface into a rectangle, about 1/4 inch thick./n  Spread pumpkin puree evenly over the dough, leaving a small border around the edges./n  Sprinkle mozzarella cheese and Parmesan cheese over the pumpkin puree./n  Season with garlic powder, dried oregano, salt, and pepper./n  Starting from one long edge, roll the dough tightly into a log. Slice the log into 1-inch thick pieces./n  Place the pizza bites onto the prepared baking sheet, spacing them apart./n  Bake in the preheated oven for 12-15 minutes, or until the pizza bites are golden brown and the cheese is melted and bubbly./n  Remove from the oven and let cool for a few minutes before serving. Enjoy your pizza bites with pumpkin!",
-      "image": "https://img.spoonacular.com/recipes/656329-312x231.jpg"
-  },
-  {
-      "title": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs",
-      "ingredients": "butter, frozen cauliflower florets, cheese, extra virgin olive oil, garlic, pasta, red couple of pepper flakes, salt and pepper, green white scallions, white wine, whole wheat bread crumbs",
-      "instructions": "Cook pasta according to package instructions until al dente. Drain and set aside./n  In a large skillet, heat olive oil over medium heat. Add minced garlic and sliced scallions, cook until fragrant, about 1-2 minutes./n  Add cauliflower florets to the skillet and cook until tender, about 5-7 minutes./n  Add cooked pasta to the skillet and toss with the cauliflower mixture. Season with salt and pepper to taste./n  In a separate small skillet, toast breadcrumbs over medium heat until golden brown./n  Serve the pasta topped with toasted breadcrumbs.",
-      "image": "https://img.spoonacular.com/recipes/716429-312x231.jpg"
-  }
+    {
+        "title": "Spaghetti Carbonara",
+        "ingredients": "spaghetti, eggs, bacon, Parmesan cheese, black pepper",
+        "instructions": "Cook spaghetti according to package instructions until al dente. Drain, reserving 1/2 cup of pasta water, and set aside./n  In a bowl, whisk together eggs, grated Parmesan cheese, and freshly ground black pepper./n  In a skillet, cook bacon until crisp. Remove from the skillet and chop into small pieces./n  In the same skillet with the bacon fat, add the cooked spaghetti and toss to coat./n  Remove the skillet from heat and quickly pour in the egg mixture, stirring vigorously to coat the spaghetti. The heat from the pasta will cook the eggs, creating a creamy sauce./n  If the sauce is too thick, gradually add the reserved pasta water until desired consistency is reached./n  Stir in the chopped bacon./n  Serve immediately, garnished with additional grated Parmesan cheese and black pepper if desired./n  Enjoy your classic Spaghetti Carbonara!",
+        "image": " https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2622edit.jpg"
+    },
+    {
+        "title": "Chicken Tikka Masala",
+        "ingredients": "chicken breasts, yogurt, tomato sauce, garlic, ginger, garam masala, cumin, coriander, turmeric, cream",
+        "instructions": "In a bowl, mix yogurt, minced garlic, grated ginger, garam masala, cumin, coriander, and turmeric./n  Cut chicken breasts into bite-sized pieces and add them to the marinade. Coat the chicken pieces well, then cover and refrigerate for at least 1 hour./n  Heat a large skillet over medium-high heat. Add a little oil and cook the marinated chicken pieces until they are browned and cooked through./n  In the same skillet, add tomato sauce and a splash of cream. Stir well to combine./n  Reduce the heat to low and simmer the sauce for about 10 minutes, allowing the flavors to meld together./n  Serve the chicken tikka masala over cooked rice or with naan bread./n  Garnish with chopped cilantro if desired./n  Enjoy your flavorful chicken tikka masala!",
+        "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg"
+    },
+    {
+        "title": "Margherita Pizza",
+        "ingredients": "pizza dough, tomato sauce, fresh mozzarella cheese, basil leaves, olive oil, salt",
+        "instructions": "Preheat your oven to 475°F (245°C) and place a pizza stone or an upside-down baking sheet inside to heat up./n  Roll out the pizza dough on a floured surface into a circle about 12 inches in diameter./n  Transfer the rolled-out dough to a piece of parchment paper./n  Spread tomato sauce evenly over the dough, leaving a small border around the edges./n  Tear the fresh mozzarella cheese into small pieces and distribute them evenly over the sauce./n  Arrange basil leaves on top of the cheese./n  Drizzle olive oil over the pizza and sprinkle with a pinch of salt./n  Carefully transfer the pizza on the parchment paper onto the preheated pizza stone or baking sheet in the oven./n  Bake for about 10-12 minutes, or until the crust is golden brown and the cheese is bubbly and melted./n  Remove the pizza from the oven and let it cool for a few minutes before slicing./n  Serve hot and enjoy your homemade Margherita pizza!",
+        "image": "https://www.abeautifulplate.com/wp-content/uploads/2015/08/the-best-homemade-margherita-pizza-1-4.jpg"
+    },
+    {
+        "title": "Beef Tacos",
+        "ingredients": "ground beef, taco seasoning, tortillas, lettuce, tomato, cheese, salsa",
+        "instructions": "Heat a skillet over medium-high heat and add the ground beef. Cook, breaking it up with a spoon, until browned and cooked through./n  Drain excess fat from the skillet, then add taco seasoning and water according to the package instructions. Stir well to combine and simmer for a few minutes until the mixture thickens./n  Warm the tortillas in a separate skillet or in the microwave./n  Assemble the tacos by spooning the beef mixture onto each tortilla./n  Top with shredded lettuce, diced tomatoes, shredded cheese, and salsa./n  Serve immediately, garnished with additional toppings like sour cream, guacamole, or chopped cilantro if desired./n  Enjoy your delicious beef tacos!",
+        "image": "https://cafedelites.com/wp-content/uploads/2015/04/Buglogi-Bbq-Beef-Tacos-61.jpg"
+    },
+    {
+        "title": "Pasta with Garlic, Scallions",
+        "ingredients": "butter, frozen cauliflower florets, cheese, extra virgin olive oil, garlic, pasta, red couple of pepper flakes, salt and pepper, green white scallions, white wine, whole wheat bread crumbs",
+        "instructions": "Cook pasta according to package instructions until al dente. Drain and set aside./n  In a large skillet, heat olive oil over medium heat. Add minced garlic and sliced scallions, cook until fragrant, about 1-2 minutes./n  Add cauliflower florets to the skillet and cook until tender, about 5-7 minutes./n  Add cooked pasta to the skillet and toss with the cauliflower mixture. Season with salt and pepper to taste./n  In a separate small skillet, toast breadcrumbs over medium heat until golden brown./n  Serve the pasta topped with toasted breadcrumbs.",
+        "image": "https://juliasalbum.com/wp-content/uploads/2023/05/scallop-pasta-5.jpg"
+    },
+    {
+        "title": "Vegetable Stir Fry",
+        "ingredients": "mixed vegetables (bell peppers, broccoli, carrots, etc.), soy sauce, garlic, ginger, sesame oil, rice",
+        "instructions": "Cook rice according to package instructions and set aside./n  Heat sesame oil in a large skillet or wok over medium-high heat./n  Add minced garlic and grated ginger to the skillet and cook for about 1 minute until fragrant./n  Add sliced mixed vegetables to the skillet and stir-fry for 5-7 minutes until they are tender-crisp./n  Pour soy sauce over the vegetables and continue to stir-fry for another 1-2 minutes./n  Serve the stir-fried vegetables over cooked rice./n  Garnish with sliced green onions or sesame seeds if desired./n  Enjoy your delicious vegetable stir fry!",
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=1200&q=82&auto=format&fit=crop&dm=1703377301&s=27a8577bc7f666190301a03fdf06584c"
+    },
+    {
+        "title": "Chocolate Chip Cookies",
+        "ingredients": "flour, butter, sugar, brown sugar, eggs, vanilla extract, chocolate chips",
+        "instructions": "Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper./n  In a large mixing bowl, cream together softened butter, granulated sugar, and brown sugar until smooth and creamy./n  Beat in eggs, one at a time, then stir in vanilla extract./n  In a separate bowl, combine flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients until well combined./n  Stir in chocolate chips until evenly distributed throughout the dough./n  Drop rounded tablespoons of dough onto the prepared baking sheet, leaving some space between each cookie./n  Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown./n  Allow the cookies to cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely./n  Enjoy your homemade chocolate chip cookies with a glass of milk!",
+        "image": "https://cafedelites.com/wp-content/uploads/2016/09/Soft-Pumpkin-Chocolate-Chip-Cookies-200.jpg"
+    },
+    {
+        "title": "Pizza bites with pumpkin",
+        "ingredients": "pizza dough, pumpkin puree, mozzarella cheese, Parmesan cheese, garlic powder, dried oregano, salt, pepper",
+        "instructions": "Preheat your oven to 425°F (220°C). Line a baking sheet with parchment paper./n  Roll out the pizza dough on a floured surface into a rectangle, about 1/4 inch thick./n  Spread pumpkin puree evenly over the dough, leaving a small border around the edges./n  Sprinkle mozzarella cheese and Parmesan cheese over the pumpkin puree./n  Season with garlic powder, dried oregano, salt, and pepper./n  Starting from one long edge, roll the dough tightly into a log. Slice the log into 1-inch thick pieces./n  Place the pizza bites onto the prepared baking sheet, spacing them apart./n  Bake in the preheated oven for 12-15 minutes, or until the pizza bites are golden brown and the cheese is melted and bubbly./n  Remove from the oven and let cool for a few minutes before serving. Enjoy your pizza bites with pumpkin!",
+        "image": "https://www.thissavoryvegan.com/wp-content/uploads/2023/09/pumpkin-shaped-pizza-bites-7.jpg"
+    }
+    
 ]
