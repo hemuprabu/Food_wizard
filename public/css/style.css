@@ -1,8 +1,16 @@
 .logoImg{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 6px 5px 2px 1px rgb(181 181 195 / 20%);
 }
-
+#logout{
+    font-family: initial;
+    font-size: 20px;
+}
 .carousel-item img{
     height: 350px;
+}
+.card{
+    height: 460px;
+    box-shadow: 12px 12px 2px 1px rgb(181 181 195 / 20%);
 }
