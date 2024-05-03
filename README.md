@@ -51,7 +51,10 @@ Create the Food Wizard application by Searching.
 
 ## Screenshots
 
-
+![Screenshot 2024-05-02 215929](https://github.com/hemuprabu/Food_wizard/assets/108079829/cb0182a5-a163-4dcf-8ed0-fbc4fd7bef27)
+![Screenshot 2024-05-02 215959](https://github.com/hemuprabu/Food_wizard/assets/108079829/f638d4f1-b9cd-4ce8-8538-2794481f4717)
+![Screenshot 2024-05-02 220010](https://github.com/hemuprabu/Food_wizard/assets/108079829/7b5cd1be-a355-4f99-aa1f-1b99a1a158c7)
+![Screenshot 2024-05-02 220103](https://github.com/hemuprabu/Food_wizard/assets/108079829/bc1718ea-9610-4d9a-a040-ea3276df6ddc)
 
 
 ## Repository Quality:
