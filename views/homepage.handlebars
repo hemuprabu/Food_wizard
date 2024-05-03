@@ -52,9 +52,9 @@
           class="form-control"
           aria-label="Large"
           aria-describedby="inputGroup-sizing-sm"
-          placeholder="Enter a Recipe to look"
+          placeholder="Enter a Recipe"
         />
-        <button type="submit" class="btn btn-secondary btn-lg btn-block">Search
+        <button type="submit" class="SearchBtn btn btn-primary btn-lg btn-block">Search
           for Recipes</button>
       </div>
     </form>
@@ -69,6 +69,7 @@
         <img src="{{recipe.image}}" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{{recipe.title}}</h5>
+          <a href="/recipe/{{recipe.id}}" class="btn btn-primary">Click to view Recipe</a>
         </div>
       </div>
       </a>

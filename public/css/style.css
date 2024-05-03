@@ -9,8 +9,21 @@
 }
 .carousel-item img{
     height: 350px;
+} 
+.carousel{
+    box-shadow: 6px 6px 2px 1px rgb(181 181 195 / 20%);
 }
+
 .card{
     height: 460px;
     box-shadow: 12px 12px 2px 1px rgb(181 181 195 / 20%);
+}
+.card-img-top{
+    height: 370px;
+}
+#search{
+    box-shadow: 6px 6px 2px 1px rgb(181 181 195 / 20%);
+}
+.SearchBtn{
+    width: 46% !important;
 }
